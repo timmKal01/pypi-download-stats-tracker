@@ -1,0 +1,23 @@
+{
+    "title": "PyPI Download Stats Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "packages": {
+            "title": "Packages",
+            "type": "array",
+            "editor": "stringList",
+            "description": "PyPI package names to check, e.g. \"requests\", \"numpy\". At least one required."
+        },
+        "daysBack": {
+            "title": "Period length (days)",
+            "type": "integer",
+            "editor": "number",
+            "description": "Length of the period to measure, and also the length of the prior period it's compared against. PyPI's public stats only retain roughly the last 180 days of history.",
+            "default": 7,
+            "minimum": 1,
+            "maximum": 90
+        }
+    },
+    "required": ["packages"]
+}
