@@ -7,7 +7,9 @@
             "title": "Packages",
             "type": "array",
             "editor": "stringList",
-            "description": "PyPI package names to check, e.g. \"requests\", \"numpy\". At least one required."
+            "description": "PyPI package names to check, e.g. \"requests\", \"numpy\". At least one required.",
+            "prefill": ["requests"],
+            "default": ["requests"]
         },
         "daysBack": {
             "title": "Period length (days)",
