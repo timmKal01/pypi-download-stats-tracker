@@ -1,0 +1,58 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "package",
+                    "currentPeriodDownloads",
+                    "currentPeriodStart",
+                    "currentPeriodEnd",
+                    "previousPeriodDownloads",
+                    "previousPeriodStart",
+                    "previousPeriodEnd",
+                    "percentChange"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "package": {
+                        "label": "Package",
+                        "format": "text"
+                    },
+                    "currentPeriodDownloads": {
+                        "label": "Current period downloads",
+                        "format": "number"
+                    },
+                    "currentPeriodStart": {
+                        "label": "Current period start",
+                        "format": "text"
+                    },
+                    "currentPeriodEnd": {
+                        "label": "Current period end",
+                        "format": "text"
+                    },
+                    "previousPeriodDownloads": {
+                        "label": "Previous period downloads",
+                        "format": "number"
+                    },
+                    "previousPeriodStart": {
+                        "label": "Previous period start",
+                        "format": "text"
+                    },
+                    "previousPeriodEnd": {
+                        "label": "Previous period end",
+                        "format": "text"
+                    },
+                    "percentChange": {
+                        "label": "Percent change",
+                        "format": "number"
+                    }
+                }
+            }
+        }
+    }
+}
