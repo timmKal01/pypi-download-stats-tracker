@@ -6,7 +6,7 @@ of the same length.
 
 Built for tracking Python package adoption trends — is a library
 gaining or losing ground — the Python-ecosystem counterpart to [NPM
-Download Stats Tracker](https://github.com/timmKal01/npm-download-stats-tracker).
+Download Stats Tracker](https://apify.com/m_ctim/npm-download-stats-tracker).
 
 ## Input
 
@@ -60,4 +60,4 @@ you check 1 package or several.
 
 ## Related products
 
-- [NPM Download Stats Tracker](https://github.com/timmKal01/npm-download-stats-tracker) — the same trend tracking for npm/JavaScript packages
+- [npm Download Stats](https://apify.com/m_ctim/npm-download-stats-tracker): the same trend tracking for npm/JavaScript packages
