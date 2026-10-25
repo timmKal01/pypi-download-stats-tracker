@@ -5,8 +5,7 @@ chosen period, plus percent change versus the immediately prior period
 of the same length.
 
 Built for tracking Python package adoption trends — is a library
-gaining or losing ground — the Python-ecosystem counterpart to [NPM
-Download Stats Tracker](https://apify.com/m_ctim/npm-download-stats-tracker).
+gaining or losing ground.
 
 ## Input
 
@@ -57,7 +56,3 @@ PyPI's public download-log data — no proxy, no key, no scraping.
 
 Billed per **request**, not per package returned — one charge whether
 you check 1 package or several.
-
-## Related products
-
-- [npm Download Stats](https://apify.com/m_ctim/npm-download-stats-tracker): the same trend tracking for npm/JavaScript packages
