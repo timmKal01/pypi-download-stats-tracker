@@ -27,6 +27,7 @@ One record per package:
 
 ```json
 {
+  "rowType": "package",
   "package": "requests",
   "currentPeriodDownloads": 428786906,
   "currentPeriodStart": "2026-08-09",
@@ -37,6 +38,8 @@ One record per package:
   "percentChange": 6.63
 }
 ```
+
+`rowType` is `"package"`, or `"error"` for a package whose stats couldn't be fetched, with an `error` saying why.
 
 `currentPeriodDownloads` is `null` for a package name PyPI doesn't
 recognize (typo or unpublished). PyPI's public stats retain roughly the

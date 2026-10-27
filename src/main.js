@@ -16,7 +16,7 @@ const DOWNLOAD_STATS_EVENT = 'download-stats-check';
 const stats = await fetchDownloadStats({ packages, daysBack });
 
 for (const stat of stats) {
-    await Actor.pushData(stat);
+    await Actor.pushData({ rowType: stat.error ? 'error' : 'package', ...stat });
 }
 
 await Actor.charge({ eventName: DOWNLOAD_STATS_EVENT });
